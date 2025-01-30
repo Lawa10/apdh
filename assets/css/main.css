@@ -420,7 +420,7 @@ h6 {
 --------------------------------------------------------------*/
 .footer {
   color: var(--default-color);
-  background-color: var(--background-color);
+  background-color: #8885b5;
   font-size: 14px;
   padding-bottom: 50px;
   position: relative;
@@ -1044,6 +1044,7 @@ section,
 .call-to-action .container {
   position: relative;
   z-index: 3;
+  background-color: #414c64;
 }
 
 .call-to-action h3 {
@@ -1459,7 +1460,9 @@ section,
   border-radius: 5px;
   overflow: hidden;
 }
-
+.faq{
+  background-color: #8885b5;
+}
 .faq .faq-container .faq-item:last-child {
   margin-bottom: 0;
 }
@@ -1512,7 +1515,7 @@ section,
 }
 
 .faq .faq-container .faq-active {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 97%);
+  background-color: color-mix(in srgb, #eaeaea, transparent 37%);
   border-color: color-mix(in srgb, var(--accent-color), transparent 80%);
 }
 
